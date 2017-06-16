@@ -1,0 +1,13 @@
+.nav-edge {
+  @include grid-column(4, $neat-grid);
+  background: brown;
+  height: 1000px;
+  border: 2px solid black;
+};
+
+.main {
+  @include grid-column(16, $neat-grid);
+  height: 1000px;
+  background: pink;
+  border: 2px solid orange;
+}
