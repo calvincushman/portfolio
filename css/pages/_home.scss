@@ -3,7 +3,7 @@
   height: 100vh;
   background-image: linear-gradient(black, darkcyan);
   display: flex;
-}
+};
 
 @keyframes twinkle {
   0% {
@@ -18,7 +18,7 @@
   100% {
     transform: scale(0.1);
   }
-}
+};
 
 .star {
   position: absolute;
@@ -28,35 +28,93 @@
   border-radius: 50%;
   opacity: .3;
   animation: twinkle 5s infinite ease-in-out;
-}
+};
+
+.starbox {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+};
+
+#box1 {
+  top: 275px;
+  right: 60px;
+};
+
+#box1:hover + #art {
+  display: block;
+};
+
 
 #star1 {
-  top: 275px;
-  right: 340px;
-  animation-delay: 2.5s;
-}
+  animation-delay: 1s;
+};
 
-#star2 {
-  top: 83px;
+#box2 {
+  top: 43px;
   left: 60px;
-}
+};
 
-#star3 {
+#box2:hover + #about {
+  display: block;
+};
+
+#box3 {
   top: 192px;
   left: 175px;
+};
+
+#star3 {
   animation-delay: 1s;
-}
+};
+
+#box3:hover + #contact {
+  display: block;
+};
+
+#box4 {
+  top: 200px;
+};
 
 #star4 {
-  top: 200px;
-  animation-delay: 4s;
+  animation-delay: 3s;
+};
+
+#box4:hover + #works {
+  display: block;
 }
 
-#star5 {
+#box5 {
   top: 110px;
   right: 200px;
   animation-delay: 4s;
+};
+
+#box5:hover + #github {
+  display: block;
 }
+
+#box6 {
+  top: 25px;
+  left: 700px;
+  animation-delay: 4s;
+};
+
+#box6:hover + #codepen {
+  display: block;
+}
+
+.pop-up {
+  position: absolute;
+  color: cyan;
+  display: none;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+};
 
 .top {
   position: relative;
@@ -81,5 +139,5 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 75px;
+  padding-top: 90px;
 }
