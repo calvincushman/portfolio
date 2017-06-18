@@ -1,0 +1,13 @@
+.art {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  img {
+    margin-top: 190px;
+    align-self: flex-end;
+    height: 30vh;
+    width: 100%;
+  }
+  background-image: linear-gradient(black, black, darkcyan, orange);
+};
