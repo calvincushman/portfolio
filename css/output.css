@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Amatic SC', cursive; }
 
+html {
+  background-image: linear-gradient(darkcyan, orange); }
+
 #aboutpop {
   top: 43px;
   left: 90px; }
@@ -27,8 +30,16 @@
   top: 110px;
   right: 155px; }
 
-#contact {
-  background-image: linear-gradient(darkcyan, orange); }
+.contact {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center; }
+  .contact img {
+    align-self: flex-end;
+    height: 100vh;
+    width: 50vw; }
 
 @keyframes twinkle {
   0% {
