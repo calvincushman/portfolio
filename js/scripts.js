@@ -3,5 +3,5 @@ $(function(){
     event.preventDefault();
     $(".top").hide();
     $("#contact").show();
-  })
-})
+  });
+});

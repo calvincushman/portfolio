@@ -4,26 +4,26 @@
   box-sizing: border-box;
   font-family: 'Amatic SC', cursive; }
 
-#about {
+#aboutpop {
   top: 43px;
   left: 90px; }
 
-#art {
+#artpop {
   top: 275px;
   right: 25px; }
 
-#works {
+#workspop {
   top: 180px; }
 
-#contact {
+#contactpop {
   top: 192px;
   left: 200px; }
 
-#codepen {
+#codepenpop {
   top: 25px;
   left: 728px; }
 
-#github {
+#githubpop {
   top: 110px;
   right: 155px; }
 
