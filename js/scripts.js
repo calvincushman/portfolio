@@ -1,7 +1,7 @@
 $(function(){
-  $("#box1").click(function(event) {
+  $("#box3").click(function(){ debugger;
     event.preventDefault();
-    $(".top").hide();
-    $("#contact").show();
+    $(".contact").show(30);
+    $(".top").hide(6000);
   });
 });
