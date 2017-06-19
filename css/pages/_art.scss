@@ -5,9 +5,15 @@
   justify-content: center;
   img {
     margin-top: 190px;
+    width: 100%;
     align-self: flex-end;
     height: 30vh;
-    width: 100%;
+  }
+  h1 {
+    margin-top: 50px;
+    color: darkcyan;
+    position: absolute;
+    align-self: flex-start;
   }
   background-image: linear-gradient(black, black, darkcyan, orange);
 };
